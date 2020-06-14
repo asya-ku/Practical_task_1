@@ -11,7 +11,7 @@
 /*===================ROUNDS===============*/
 
 .round {
-    position: absolute; 
+    position: relative; 
     display: inline-block;
     width: 25%;
     height: 25%;
@@ -29,7 +29,7 @@
 
 /*====================SQUARES==============*/
 .square {
-  position: relative; 
+  position: absolute; 
   z-index: 0;
   display: inline-block;
   top: 25%;
@@ -41,7 +41,7 @@
 }
 
 .rounded-square {
-  position: relative; 
+  position: absolute; 
   display: inline-block;
   top: 35%;
   left: 35%;
