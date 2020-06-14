@@ -54,6 +54,7 @@
 /*=================HOVER PARAMETERS==============*/
 
 .round--top-left:hover {
+  z-index: 10;
   background: #0ffc03;
 }
 
