@@ -56,12 +56,12 @@
 
 /*=================HOVER PARAMETERS==============*/
 
-.round--top-left:hover {
+.round--up-left:hover {
   z-index: 15;
   background: #0ffc03;
 }
 
-.round--top-right:hover {
+.round--up-right:hover {
   z-index: 10;
   background: #03fceb;
 }
