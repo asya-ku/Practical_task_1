@@ -41,7 +41,7 @@
 }
 
 .rounded-square {
-  position: absolute; 
+  position: relative; 
   display: inline-block;
   top: 35%;
   left: 35%;
