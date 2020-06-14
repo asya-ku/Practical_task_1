@@ -1,0 +1,82 @@
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+/*===================ROUNDS===============*/
+
+.round {
+    position: relative; 
+    z-index: 0;
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    margin: 12.5%;
+    background: #ee210c;
+    border: 0;
+    border-radius: 50%;
+  }
+
+.round--up-left {}
+.round--up-right {}
+.round--down-left {}
+.round--down-right {}
+
+
+/*====================SQUARES==============*/
+.square {
+  position: absolute; 
+  z-index: 0;
+  display: inline-block;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background: #00a2ff;
+  border: 0;
+}
+
+.rounded-square {
+  position: absolute; 
+  display: inline-block;
+  top: 35%;
+  left: 35%;
+  z-index: 5;
+  width: 30%;
+  height: 30%;
+  background-color: #f7ba00;
+  border: 0;
+  border-radius: 15%;
+}
+
+/*=================HOVER PARAMETERS==============*/
+
+.round--up-left:hover {
+  z-index: 15;
+  background: #0ffc03;
+}
+
+.round--up-right:hover {
+  z-index: 10;
+  background: #03fceb;
+}
+
+.round--down-left:hover {
+  z-index: 10;
+  background: #0314fc;
+}
+
+.round--down-right:hover {
+  z-index: 10;
+  background: #fc03d2;
+}
+
+.square:hover {
+  z-index: 10;
+  background: #ba99b4;
+}
