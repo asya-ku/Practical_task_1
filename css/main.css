@@ -12,7 +12,6 @@
 
 .round {
     position: absolute; 
-    z-index: 0;
     display: inline-block;
     width: 25%;
     height: 25%;
