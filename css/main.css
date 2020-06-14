@@ -11,7 +11,7 @@
 /*===================ROUNDS===============*/
 
 .round {
-    position: relative; 
+    position: absolute; 
     z-index: 0;
     display: inline-block;
     width: 25%;
